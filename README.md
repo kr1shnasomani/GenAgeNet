@@ -25,6 +25,8 @@ This code detects faces in an image using a pre-trained DNN model and predicts t
 
    f. [gender_net.caffemodel](https://github.com/smahesh29/Gender-and-Age-Detection/blob/master/gender_net.caffemodel)
 
+5. Upon running the code after doing all this the code will provide its prediction
+
 ## Model Prediction:
 
   Input Image:
