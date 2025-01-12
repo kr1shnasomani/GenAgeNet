@@ -4,7 +4,7 @@ This code detects faces in an image using a pre-trained DNN model and predicts t
 ## Execution Guide:
 1. Run the following command line in the terminal:
    ```
-   pip install opencv-contrib-python
+   pip install opencv-python opencv-contrib-python numpy
    ```
 
 2. Enter the path of the input image whose age and gender detection you want to do
