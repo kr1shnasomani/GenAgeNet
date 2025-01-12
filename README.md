@@ -13,8 +13,17 @@ This code detects faces in an image using a pre-trained DNN model and predicts t
 
 4. Download the following models and paste their path in the code:
 
-   a. 
+   a. [opencv_face_detector.pbtxt](https://github.com/kr1shnasomani/GenAgeNet/blob/main/model/opencv_face_detector.pbtxt)
 
+   b. [opencv_face_detector_uint8.pb](https://github.com/kr1shnasomani/GenAgeNet/blob/main/model/opencv_face_detector_uint8.pb)
+
+   c. [age_deploy.prototxt](https://github.com/kr1shnasomani/GenAgeNet/blob/main/model/age_deploy.prototxt)
+
+   d. [age_net.caffemodel](https://github.com/smahesh29/Gender-and-Age-Detection/blob/master/age_net.caffemodel)
+
+   e. [gender_deploy.prototxt](https://github.com/kr1shnasomani/GenAgeNet/blob/main/model/gender_deploy.prototxt)
+
+   f. [gender_net.caffemodel](https://github.com/smahesh29/Gender-and-Age-Detection/blob/master/gender_net.caffemodel)
 
 ## Model Prediction:
 
