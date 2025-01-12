@@ -66,13 +66,13 @@ The code implements a **Gender and Age Detection System** using pre-trained mode
    - OpenCV is used for image processing and DNN inference.
    - Paths for the input image, output image, and pre-trained models are defined.
 
-2. **Model Loading**:  `load_networks`: Loads face detection, age prediction, and gender prediction networks from their respective files.
+2. **Model Loading** (`load_networks`): Loads face detection, age prediction, and gender prediction networks from their respective files.
 
-3. **Face Detection**: `detect_faces`: Processes the input image through the face detection model and outputs bounding boxes for all detected faces.
+3. **Face Detection** (`detect_faces`): Processes the input image through the face detection model and outputs bounding boxes for all detected faces.
 
-4. **Image Preprocessing**: `convert_to_1x1_with_face`: Converts the detected face region into a square image with optional padding to ensure uniform dimensions.
+4. **Image Preprocessing** (`convert_to_1x1_with_face`): Converts the detected face region into a square image with optional padding to ensure uniform dimensions.
 
-5. **Age and Gender Prediction**: `predict_age_gender`: 
+5. **Age and Gender Prediction** (`predict_age_gender`): 
      - Creates a blob from the detected face.
      - Passes the blob to gender and age prediction models.
      - Returns the predicted gender and age range.
@@ -88,8 +88,8 @@ The code implements a **Gender and Age Detection System** using pre-trained mode
 
 
 ### **Pre-Trained Models**
-1. **Face Detection**: Model: `opencv_face_detector.pb` and its config file (`opencv_face_detector.pbtxt`).
+1. **Face Detection**: `opencv_face_detector.pb` and `opencv_face_detector.pbtxt`
 
-2. **Age Prediction**: Model: `age_net.caffemodel` with `age_deploy.prototxt`.
+2. **Age Prediction**: `age_net.caffemodel` and `age_deploy.prototxt`
 
-3. **Gender Prediction**: Model: `gender_net.caffemodel` with `gender_deploy.prototxt`.
+3. **Gender Prediction**: `gender_net.caffemodel` and `gender_deploy.prototxt`
